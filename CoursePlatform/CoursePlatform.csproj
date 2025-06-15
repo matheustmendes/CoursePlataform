@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>CoursePlataform</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="ContentContext\Enums\" />
+    </ItemGroup>
+
+</Project>
