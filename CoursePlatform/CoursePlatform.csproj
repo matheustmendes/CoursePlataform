@@ -7,8 +7,4 @@
         <RootNamespace>CoursePlataform</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="ContentContext\Enums\" />
-    </ItemGroup>
-
 </Project>
