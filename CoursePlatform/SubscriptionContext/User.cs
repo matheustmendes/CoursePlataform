@@ -1,6 +1,9 @@
-﻿namespace CoursePlataform.SubscriptionContext;
+﻿using CoursePlataform.SharedContext;
 
-public class User
+namespace CoursePlataform.SubscriptionContext;
+
+public class User : BaseContent
 {
-    
+    public string Username { get; set; }
+    public string Password { get; set; }
 }
