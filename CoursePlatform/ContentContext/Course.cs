@@ -6,17 +6,19 @@ public class Course : Content
 {
     
     public ELevel Level { get; set; }
-    public IList<Module> Modules { get; set; } = new List<Module>();
+    public IList<Module> Modules { get; set; }
     public Category Category { get; set; }
+    public string Title { get; set; }
     
-    /* Vou comentar o construtor por enquanto 
-     public Course(ELevel level, string title, string slug, Category category)
+    
+     public Course(ELevel level, string title, string url, Category category) : base(title, url)
     {
         Level = level;
         Title = title;
         Category = category;
+        Modules = new List<Module>();
     }
-    */
+
     
     
     
