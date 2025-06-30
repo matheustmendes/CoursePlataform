@@ -1,4 +1,6 @@
-﻿namespace CoursePlataform.ContentContext;
+﻿using CoursePlataform.NotificationContext;
+
+namespace CoursePlataform.ContentContext;
 
     public class CareerItem : BaseContent
     {
@@ -6,7 +8,7 @@
         public CareerItem(int order, string title, string description, Course course)
         {
             if(course == null)
-                throw new ArgumentNullException(nameof(course), "Course cannot be null");
+                AddNotification(new Notification("Course", "Course cannot be null. Invalid Course"));
             Order = order;
             Title = title;
             Description = description;
