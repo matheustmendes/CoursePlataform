@@ -1,6 +1,6 @@
 ﻿using CoursePlataform.NotificationContext;
 
-namespace CoursePlataform.ContentContext;
+namespace CoursePlataform.SharedContext;
 
 public abstract class BaseContent : Notifiable
 {

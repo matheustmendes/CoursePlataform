@@ -1,4 +1,6 @@
-﻿namespace CoursePlataform.ContentContext;
+﻿using CoursePlataform.SharedContext;
+
+namespace CoursePlataform.ContentContext;
 
 public class Lecture : BaseContent
 {

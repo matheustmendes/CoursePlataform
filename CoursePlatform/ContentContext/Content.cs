@@ -1,5 +1,6 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
 using CoursePlataform.NotificationContext;
+using CoursePlataform.SharedContext;
 
 namespace CoursePlataform.ContentContext;
 
