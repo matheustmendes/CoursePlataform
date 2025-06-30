@@ -36,6 +36,8 @@ namespace CoursePlataform
             courses.Add(courseOOP);
             courses.Add(courseDotnet);
             courses.Add(courseAspnet);
+            
+            
 
             foreach (var course in courses)
             {

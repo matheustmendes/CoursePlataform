@@ -1,6 +1,6 @@
 ﻿namespace CoursePlataform.ContentContext;
 
-    public class CareerItem
+    public class CareerItem : BaseContent
     {
         
         public CareerItem(int order, string title, string description, Course course)

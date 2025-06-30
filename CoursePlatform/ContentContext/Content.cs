@@ -1,17 +1,18 @@
 ﻿using System.Runtime.InteropServices.JavaScript;
+using CoursePlataform.NotificationContext;
 
 namespace CoursePlataform.ContentContext;
 
-public abstract class Content
+public abstract class Content : BaseContent
 {
 
     public Content(string title, string url)
     {
         Title = title;
         Url = url;
-        Id = Guid.NewGuid();
+        
     }
-    public Guid Id { get; set; }
+   
     public string Title { get; set; }
     public string Url { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.Now;

@@ -1,6 +1,6 @@
 ﻿namespace CoursePlataform.ContentContext;
 
-public class Module
+public class Module : BaseContent
 {
     public int Id { get; set; }
     public string Title { get; set; }

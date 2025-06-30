@@ -1,6 +1,6 @@
 ﻿namespace CoursePlataform.ContentContext;
 
-public class Category
+public class Category : BaseContent
 {
     public Category(int id, string name)
     {
